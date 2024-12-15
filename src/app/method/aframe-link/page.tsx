@@ -1,6 +1,6 @@
 import { getAllEpisodes } from "@/src/service/episode"
 
-const BASEPATH = "/sample-viewer"
+const BASEPATH = "/method/aframe-link"
 
 export default function Page() {
 	const episodes = getAllEpisodes()

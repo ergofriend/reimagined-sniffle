@@ -6,7 +6,7 @@ import type { Episode } from "../models/episode"
 export const episodeList: Array<Episode> = [
 	{
 		number: 1,
-		title: "一　午後の授業",
+		title: "1. 午後の授業",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">
@@ -182,7 +182,7 @@ export const episodeList: Array<Episode> = [
 	},
 	{
 		number: 2,
-		title: "二　活版所",
+		title: "2. 活版所",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">
@@ -313,7 +313,7 @@ export const episodeList: Array<Episode> = [
 	},
 	{
 		number: 3,
-		title: "三　家",
+		title: "3. 家",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">
@@ -478,7 +478,7 @@ export const episodeList: Array<Episode> = [
 	},
 	{
 		number: 4,
-		title: "四　ケンタウル祭の夜",
+		title: "4. ケンタウル祭の夜",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">
@@ -781,7 +781,7 @@ export const episodeList: Array<Episode> = [
 	},
 	{
 		number: 5,
-		title: "五　天気輪の柱",
+		title: "5. 天気輪の柱",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">
@@ -891,7 +891,7 @@ export const episodeList: Array<Episode> = [
 	},
 	{
 		number: 6,
-		title: "六　銀河ステーション",
+		title: "6. 銀河ステーション",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">
@@ -1174,7 +1174,7 @@ export const episodeList: Array<Episode> = [
 	},
 	{
 		number: 7,
-		title: "七　北十字とプリオシン海岸",
+		title: "7. 北十字とプリオシン海岸",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">
@@ -1614,7 +1614,7 @@ export const episodeList: Array<Episode> = [
 	},
 	{
 		number: 8,
-		title: "八　鳥を捕る人",
+		title: "8. 鳥を捕る人",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">
@@ -2005,7 +2005,7 @@ export const episodeList: Array<Episode> = [
 	},
 	{
 		number: 9,
-		title: "九　ジョバンニの切符",
+		title: "9. ジョバンニの切符",
 		content: `
 <div class="jisage_5" style="margin-left: 5em">
   <h4 class="naka-midashi">

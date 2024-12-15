@@ -1,0 +1,7 @@
+.a-enter-vr-button {
+  /* 常に画面の右下に表示 */
+  position: fixed !important;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}

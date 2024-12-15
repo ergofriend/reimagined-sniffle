@@ -16,7 +16,7 @@
 		}
 	},
 	"files": {
-		"ignore": [".next", "out", "node_modules"]
+		"ignore": [".next", "out", "node_modules", "patches"]
 	},
 	"javascript": {
 		"formatter": {

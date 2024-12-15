@@ -11,6 +11,8 @@
 	},
 	"dependencies": {
 		"@radix-ui/react-slot": "^1.1.1",
+		"aframe": "^1.6.0",
+		"aframe-htmlmesh": "^2.3.0",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"lucide-react": "^0.468.0",
@@ -22,6 +24,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
+		"@tailwindcss/typography": "^0.5.15",
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
@@ -30,5 +33,10 @@
 		"tailwindcss": "^3.4.1",
 		"typescript": "^5"
 	},
-	"packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa"
+	"packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa",
+	"pnpm": {
+		"patchedDependencies": {
+			"aframe-htmlmesh@2.3.0": "patches/aframe-htmlmesh@2.3.0.patch"
+		}
+	}
 }

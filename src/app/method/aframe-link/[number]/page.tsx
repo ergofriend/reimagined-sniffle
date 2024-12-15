@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { AframeRegister } from "@/src/components/AframeRegister"
 import { EpisodeViewer } from "@/src/components/episode-viewer/EpisodeViewer"
 import { getAllEpisodes, getEpisode } from "@/src/service/episode"
 
@@ -8,7 +9,7 @@ export async function generateStaticParams() {
 	}))
 }
 
-const BASEPATH = "/sample-viewer"
+const BASEPATH = "/method/aframe-link"
 
 export default async function Page({
 	params,
@@ -29,7 +30,12 @@ export default async function Page({
 					Back to list
 				</Button>
 			</a>
-			<EpisodeViewer basepath={BASEPATH} episode={episode} />
+			<div className="flex justify-center">
+				<div style={{ width: "600px" }}>
+					<EpisodeViewer basepath={BASEPATH} episode={episode} />
+				</div>
+			</div>
+			<AframeRegister />
 		</div>
 	)
 }

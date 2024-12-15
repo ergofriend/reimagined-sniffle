@@ -3,15 +3,15 @@ import { EpisodeContent } from "./EpisodeContent"
 import { EpisodePager } from "./EpisodePager"
 
 type Props = {
+	basepath: string
 	episode: Episode
 }
 
-export const EpisodeViewer = ({ episode }: Props) => {
+export const EpisodeViewer = ({ basepath, episode }: Props) => {
 	return (
 		<div className="flex flex-col gap-4">
-			<EpisodePager currentEpisodeNumber={episode.number} />
+			<EpisodePager basepath={basepath} currentEpisodeNumber={episode.number} />
 			<EpisodeContent content={episode.content} />
-			<EpisodePager currentEpisodeNumber={episode.number} />
 		</div>
 	)
 }

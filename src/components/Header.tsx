@@ -5,11 +5,14 @@ export const Header = () => {
 				<span className="text-2xl font-bold text-primary">Home</span>
 			</a>
 			<nav>
-				<ul className="flex flex-row gap-4 w-full">
+				{/* <ul className="flex flex-row gap-4 w-full">
 					<li>
-						<a href="/sample-viewer">擬似小説ページ</a>
+						<a href="/">articles</a>
 					</li>
-				</ul>
+					<li>
+						<a href="/">source</a>
+					</li>
+				</ul> */}
 			</nav>
 		</header>
 	)
