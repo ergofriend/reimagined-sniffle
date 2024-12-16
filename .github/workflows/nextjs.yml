@@ -69,7 +69,7 @@ jobs:
           static_site_generator: next
           generator_config_file: next.config.js
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} pnpm build
+        run: pnpm build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
