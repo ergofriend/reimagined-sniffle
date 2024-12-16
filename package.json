@@ -3,22 +3,28 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "next dev --turbopack",
+		"dev": "next dev --hostname 0.0.0.0",
 		"build": "next build",
 		"start": "serve out/",
 		"lint": "biome check --write .",
 		"ci": "biome ci"
 	},
 	"dependencies": {
+		"@babylonjs/addons": "^7.40.2",
+		"@babylonjs/core": "^7.40.2",
+		"@babylonjs/gui": "^7.40.2",
 		"@radix-ui/react-slot": "^1.1.1",
 		"aframe": "^1.6.0",
 		"aframe-htmlmesh": "^2.3.0",
+		"babylon-htmlmesh": "^2.0.1",
+		"babylonjs-addons": "^7.40.2",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"lucide-react": "^0.468.0",
-		"next": "15.1.0",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
+		"next": "14.2.20",
+		"react": "^18.3.1",
+		"react-babylonjs": "^3.2.1",
+		"react-dom": "^18.3.1",
 		"tailwind-merge": "^2.5.5",
 		"tailwindcss-animate": "^1.0.7"
 	},
@@ -26,8 +32,8 @@
 		"@biomejs/biome": "^1.9.4",
 		"@tailwindcss/typography": "^0.5.15",
 		"@types/node": "^20",
-		"@types/react": "^19",
-		"@types/react-dom": "^19",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
 		"postcss": "^8",
 		"serve": "^14.2.4",
 		"tailwindcss": "^3.4.1",
@@ -36,7 +42,8 @@
 	"packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa",
 	"pnpm": {
 		"patchedDependencies": {
-			"aframe-htmlmesh@2.3.0": "patches/aframe-htmlmesh@2.3.0.patch"
+			"aframe-htmlmesh@2.3.0": "patches/aframe-htmlmesh@2.3.0.patch",
+			"@babylonjs/addons@7.40.2": "patches/@babylonjs__addons@7.40.2.patch"
 		}
 	}
 }

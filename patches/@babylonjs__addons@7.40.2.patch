@@ -1,0 +1,8 @@
+diff --git a/index.js b/index.js
+index 0447b79db0247a5c0a86d0e16ba66936b1d98349..098fd7317a51c09e53d00558194119c957415b33 100644
+--- a/index.js
++++ b/index.js
+@@ -1,2 +1,2 @@
+-export * from "./htmlMesh.js";
++export * from "./htmlMesh/index.js";
+ //# sourceMappingURL=index.js.map
