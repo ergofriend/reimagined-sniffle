@@ -1,9 +1,11 @@
+import Link from "next/link"
+
 export const Header = () => {
 	return (
 		<header className="flex flex-row items-center justify-between p-4 bg-background">
-			<a href="/">
+			<Link href="/">
 				<span className="text-2xl font-bold text-primary">Home</span>
-			</a>
+			</Link>
 			<nav>
 				{/* <ul className="flex flex-row gap-4 w-full">
 					<li>

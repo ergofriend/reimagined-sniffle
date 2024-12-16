@@ -4,6 +4,7 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card"
+import Link from "next/link"
 
 export default function Home() {
 	return (
@@ -17,7 +18,7 @@ export default function Home() {
 				</p>
 			</div>
 			<h2 className="text-xl font-bold">Testing Page</h2>
-			<a href="/sample-viewer">
+			<Link href="/sample-viewer">
 				<Card>
 					<CardHeader>
 						<CardTitle>Sample Novel Episode Viewer</CardTitle>
@@ -26,9 +27,9 @@ export default function Home() {
 						</CardDescription>
 					</CardHeader>
 				</Card>
-			</a>
+			</Link>
 			<h2 className="text-xl font-bold">Methods</h2>
-			<a href="/method/aframe-link">
+			<Link href="/method/aframe-link">
 				<Card>
 					<CardHeader>
 						<CardTitle>A-Frame's link</CardTitle>
@@ -38,7 +39,7 @@ export default function Home() {
 						</CardDescription>
 					</CardHeader>
 				</Card>
-			</a>
+			</Link>
 		</div>
 	)
 }

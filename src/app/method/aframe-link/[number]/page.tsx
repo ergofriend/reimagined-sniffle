@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { AframeRegister } from "@/src/components/AframeRegister"
 import { EpisodeViewer } from "@/src/components/episode-viewer/EpisodeViewer"
 import { getAllEpisodes, getEpisode } from "@/src/service/episode"
+import Link from "next/link"
 
 export async function generateStaticParams() {
 	return getAllEpisodes().map((post) => ({
@@ -25,11 +26,11 @@ export default async function Page({
 
 	return (
 		<div className="flex flex-col gap-4">
-			<a href={BASEPATH}>
+			<Link href={BASEPATH}>
 				<Button variant={"outline"} className="w-full">
 					Back to list
 				</Button>
-			</a>
+			</Link>
 			<div className="flex justify-center">
 				<div style={{ width: "600px" }}>
 					<EpisodeViewer basepath={BASEPATH} episode={episode} />
