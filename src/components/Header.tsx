@@ -7,14 +7,21 @@ export const Header = () => {
 				<span className="text-2xl font-bold text-primary">Home</span>
 			</Link>
 			<nav>
-				{/* <ul className="flex flex-row gap-4 w-full">
-					<li>
+				<ul className="flex flex-row gap-4 w-full">
+					{/* <li>
 						<a href="/">articles</a>
-					</li>
+					</li> */}
 					<li>
-						<a href="/">source</a>
+						<a
+							href="https://github.com/ergofriend/reimagined-sniffle"
+							target="_blank"
+							rel="noreferrer"
+							className="text-primary hover:underline"
+						>
+							source
+						</a>
 					</li>
-				</ul> */}
+				</ul>
 			</nav>
 		</header>
 	)
