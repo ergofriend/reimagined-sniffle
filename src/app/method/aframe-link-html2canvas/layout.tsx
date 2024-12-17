@@ -6,27 +6,11 @@ export default function Layout({
 	return (
 		<div className="flex flex-col gap-4">
 			<div className="prose">
-				<h2>A-Frame's link with HTMLMesh</h2>
+				<h2>A-Frame's link with html2canvas</h2>
 				<ul>
 					<li>
-						Three.js's HTMLMesh cannot wrap text, so it is difficult to handle
-						existing websites.
-						<details>
-							<ul>
-								<li>
-									<a href="https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/11">
-										Implement text wrapping by vincentfretin · Pull Request #11
-										· AdaRoseCannon&#x2F;aframe-htmlmesh
-									</a>
-								</li>
-								<li>
-									<a href="https://github.com/mrdoob/three.js/pull/24781">
-										HTMLMesh: added textNode wrapping by jrjdavidson · Pull
-										Request #24781 · mrdoob&#x2F;three.js
-									</a>
-								</li>
-							</ul>
-						</details>
+						The html2canvas may be a good solution for some websites for text
+						wrapping.
 					</li>
 					<li>
 						{/* Among all platforms, the Oculus Browser on Quest is the only working

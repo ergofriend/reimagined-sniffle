@@ -32,10 +32,21 @@ export default function Home() {
 			<Link href="/method/aframe-link">
 				<Card>
 					<CardHeader>
-						<CardTitle>A-Frame's link</CardTitle>
+						<CardTitle>A-Frame's link with HTMLMesh</CardTitle>
 						<CardDescription>
 							With HTMLMesh(Three.js) and link(in-VR navigation), <br /> Click
 							the Button on the bottom right to try it out.
+						</CardDescription>
+					</CardHeader>
+				</Card>
+			</Link>
+			<Link href="/method/aframe-link-html2canvas">
+				<Card>
+					<CardHeader>
+						<CardTitle>A-Frame's link with html2canvas</CardTitle>
+						<CardDescription>
+							With html2canvas and link(in-VR navigation), <br /> Click the
+							Button on the bottom right to try it out.
 						</CardDescription>
 					</CardHeader>
 				</Card>
