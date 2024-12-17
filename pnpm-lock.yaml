@@ -9,7 +9,7 @@ patchedDependencies:
     hash: fkxkmk4446wrhwzvr25ai6luki
     path: patches/@babylonjs__addons@7.40.2.patch
   aframe-htmlmesh@2.3.0:
-    hash: 2l6ilim4ajdexz7jd7jycj3654
+    hash: j64wlmxnxf3o2rbubtoiazcn4y
     path: patches/aframe-htmlmesh@2.3.0.patch
 
 dependencies:
@@ -30,7 +30,7 @@ dependencies:
     version: 1.6.0
   aframe-htmlmesh:
     specifier: ^2.3.0
-    version: 2.3.0(patch_hash=2l6ilim4ajdexz7jd7jycj3654)
+    version: 2.3.0(patch_hash=j64wlmxnxf3o2rbubtoiazcn4y)
   babylon-htmlmesh:
     specifier: ^2.0.1
     version: 2.0.1(@babylonjs/core@7.40.2)
@@ -462,7 +462,7 @@ packages:
       negotiator: 0.6.3
     dev: true
 
-  /aframe-htmlmesh@2.3.0(patch_hash=2l6ilim4ajdexz7jd7jycj3654):
+  /aframe-htmlmesh@2.3.0(patch_hash=j64wlmxnxf3o2rbubtoiazcn4y):
     resolution: {integrity: sha512-YI8CycK+JcpSiem4E6sMoUcn6xmsrC8i4s+vTVhJeGrcAJ2NXOWJg2iiZjbgCZ+bLsW1LSGm9IeVMjPaMTr0jQ==}
     dependencies:
       three: 0.140.2
