@@ -5,3 +5,9 @@
   right: 0;
   margin: 20px;
 }
+
+#aframe-embedded {
+  img {
+    display: none;
+  }
+}
